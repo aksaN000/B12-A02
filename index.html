@@ -246,31 +246,34 @@
             </div>
             
             <!-- Deals Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Deal Card 1 -->
-                <div class="relative rounded-lg overflow-hidden h-64">
-                    <img src="./B12A02-Responsive-Flowers/assets/deal-bloom.png" alt="Bloom Plant Deal" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-start p-6">
-                        <h3 class="text-white text-2xl font-bold mb-2">60% Off | Bloom Plant</h3>
-                        <button class="text-white underline hover:no-underline">Shop Now</button>
+            <div class="flex flex-col lg:flex-row gap-6 max-w-[1140px] mx-auto h-auto lg:h-[423px]">
+                <!-- Left Column: Two stacked cards -->
+                <div class="flex flex-col gap-6 flex-1 lg:max-w-[calc(100%-753px-24px)]">
+                    <!-- Deal Card 1 - Bloom Plant -->
+                    <div class="relative rounded-lg overflow-hidden h-48 lg:h-[197px]">
+                        <img src="./B12A02-Responsive-Flowers/assets/deal-bloom.png" alt="Bloom Plant Deal" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-start p-6">
+                            <h3 class="text-white text-2xl font-bold mb-2">60% Off | Bloom Plant</h3>
+                            <button class="text-white underline hover:no-underline">Shop Now</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Deal Card 3 - Ana Plant -->
+                    <div class="relative rounded-lg overflow-hidden h-48 lg:h-[197px]">
+                        <img src="./B12A02-Responsive-Flowers/assets/deal-ana.png" alt="Ana Plant Deal" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-start p-6">
+                            <h3 class="text-white text-2xl font-bold mb-2">30% Off | Ana Plant</h3>
+                            <button class="text-white underline hover:no-underline">Shop Now</button>
+                        </div>
                     </div>
                 </div>
                 
-                <!-- Deal Card 2 -->
-                <div class="relative rounded-lg overflow-hidden h-64">
+                <!-- Right Column: One large card -->
+                <div class="relative rounded-lg overflow-hidden h-48 lg:h-full lg:w-[753px] flex-shrink-0">
                     <img src="./B12A02-Responsive-Flowers/assets/deal-zabo.png" alt="Zabo Plant Deal" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center p-6 text-center">
                         <div class="text-white text-sm mb-2">1/2</div>
                         <h3 class="text-white text-2xl font-bold mb-2">25% Off | Zabo Plant</h3>
-                        <button class="text-white underline hover:no-underline">Shop Now</button>
-                    </div>
-                </div>
-                
-                <!-- Deal Card 3 -->
-                <div class="relative rounded-lg overflow-hidden h-64">
-                    <img src="./B12A02-Responsive-Flowers/assets/deal-ana.png" alt="Ana Plant Deal" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-start p-6">
-                        <h3 class="text-white text-2xl font-bold mb-2">30% Off | Ana Plant</h3>
                         <button class="text-white underline hover:no-underline">Shop Now</button>
                     </div>
                 </div>
